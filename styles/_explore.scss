@@ -1,0 +1,31 @@
+.explore {
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/kumbet-yaylasi3.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+
+    &-content {
+        width: 50%;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+
+        p {
+            color: $text-color;
+            width: 80%;
+        }
+
+        h1 {
+            color: $thirdy-color;
+            font-size: 8vmin;
+            text-align: center;
+
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import "_variables";
+
+.navbar{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    color: $text-color;
+  
+
+    &-logo{
+        font-size: 50px;
+        box-shadow: 0 0 10px 3px;
+    }
+
+    &-links{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 10px;
+        
+        a{
+            color: $text-color;
+        }
+    }
+
+}
